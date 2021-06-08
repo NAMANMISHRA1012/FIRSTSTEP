@@ -26,7 +26,7 @@ public class Discount {
 		else if (customerType.compareTo("premium")== 0)
 		{
 			if (amountSpend<= 5000) {
-				discountAmount=0;
+				discount=0;
 				
 			}
 			else if (amountSpend> 5000 && amountSpend<10000) {
