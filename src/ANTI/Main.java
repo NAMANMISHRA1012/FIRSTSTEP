@@ -54,9 +54,7 @@ public class Main {
 			int RentPerHour=  sc.nextInt();
 			sc.nextLine();
 			Car car = new Car(idCar,type,numberOfSeats,RentPerHour);
-			//ci.display();
-			ci.addCar(car);
-			//ci.display();
+			
 			
 			
 			
@@ -72,10 +70,7 @@ public class Main {
 			System.out.println("Car borrowed is "+ obj);
 			storing.put(customerEmail,obj);
 			tt.borrowCar(obj);
-//			System.out.println("enter duration in hours ");
-//			int time = sc.nextInt();
-//			bill.billing(um.getCategory(customerEmail),obj,time);
-//			
+			
 		
 			break;
 			

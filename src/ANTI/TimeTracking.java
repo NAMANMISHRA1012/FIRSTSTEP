@@ -14,7 +14,6 @@ public class TimeTracking {
  public long ReturnCar(Car Car) {
 	LocalDateTime returnTime = LocalDateTime.now();
 	LocalDateTime borrowTime = map.get(Car);
-	//System.out.println(map);
 	Duration duration = Duration.between(borrowTime, returnTime);
     long amountOfTime= duration.toMinutes();
     return  (long) Math.ceil((double)amountOfTime/60);

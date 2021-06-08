@@ -9,14 +9,9 @@ public class Customer {
 	 private String status;
 	public Customer(String name, String email, String password, long mobileNumber, String category, String status) {
 		super();
-//		if (category.compareTo("regular")==0|| category.compareTo("premium")==0)
-//		{
-			this.category = category;
-//		}
 		
-//		else {
-//		System.out.println("io exception");
-//		}
+			this.category = category;
+
 		this.name = name;
 		this.email = email;
 		this.password = password;
@@ -27,7 +22,7 @@ public class Customer {
 			this.status = status;
 		}
 		else {
-			System.out.println("io exception");} // purposely
+			System.out.println("io exception");} 
 		}
 		
 	

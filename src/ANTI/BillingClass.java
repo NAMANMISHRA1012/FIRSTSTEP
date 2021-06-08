@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class BillingClass {
 	public void billing(String string , Car car,int duration) {
-		//System.out.println(string);
-		//System.out.println(car);
+		
 		int billBefore = car.getRentPerHour()* duration;
 		System.out.println("Bill before discount = "+ billBefore+" INR");
 		Discount d=  new Discount();
